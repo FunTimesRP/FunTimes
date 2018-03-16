@@ -1,4 +1,3 @@
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -26,7 +25,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('List Of Commands: $banner, $ip, and $hello');
+    	message.reply('List Of Commands: $banner, $ip, $backgroundinfo, and $hello');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '$backgroundinfo') {
+    	message.reply('Fun Times is a RP server for Five M! The Owner is Sam W. | 2B-22 AKA NiceGuy. The owner started Fun Times in 2018, and has been working on the server every sense. Fun Times is a small community, but we are a very strong community when brought together! We help everyone learn how to RP and make people feel at home! We give everyone a chance on are community. We are the community of forgiveness. We can not help that some people do not like are server or agree on how we think. We have rules, and people have to abide by them. We the community hope you enjoy your stay!');
   	}
 });
 
