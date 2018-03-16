@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('List Of Commands: $banner, $ip, and $hello ');
+    	message.reply('List Of Commands: $banner, $ip, and $hello');
   	}
 });
     
