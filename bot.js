@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '$help') {
+    	message.reply('List Of Commands: $banner, $ip, and $hello');
   	}
 });
 
