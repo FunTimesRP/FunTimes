@@ -16,6 +16,12 @@ client.on('message', message => {
     	message.reply('https://cdn.discordapp.com/attachments/292016130535587840/423597590651600896/Fun-Times-Banner-2.gif');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === '$hello') {
+    	message.reply('Welcome to Fun Times I am the Owner's Assistant! If you need help use cammand $help ');
+  	}
+});
     
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
