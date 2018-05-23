@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '$ip') {
-    	message.reply('server ip: 198.27.68.8:32294');
+    	message.reply('server ip: 206.221.190.10:30120');
   	}
 });
 
