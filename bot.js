@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '$banner') {
-    	message.reply('https://cdn.discordapp.com/attachments/292016130535587840/423597590651600896/Fun-Times-Banner-2.gif');
+    if (message.content === '$cad') {
+    	message.reply('https://bubble.is/site/projectsanandreas/');
   	}
 });
 
@@ -25,7 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('List Of Commands: $ip, $backgroundinfo, and $hello');
+    	message.reply('List Of Commands: $ip, $cad, $backgroundinfo, and $hello');
   	}
 });
 
