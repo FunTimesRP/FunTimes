@@ -5,11 +5,5 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === '$fivem');
-    	message.reply('https://forum.fivem.net/');
-  	}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
