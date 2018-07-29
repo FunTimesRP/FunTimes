@@ -6,32 +6,32 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '$ip') {
-    	message.reply('server ip: 185.249.196.20:32186');
+    if (message.content === '$fivem');
+    	message.reply('https://forum.fivem.net/');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '$cad') {
-    	message.reply('https://bubble.is/site/projectsanandreas/');
+    if (message.content === '$paintjobs') {
+    	message.reply('go to #five-m-specials for the paintjobs');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '$hello') {
-    	message.reply('Hi Welcome to Project San Andreas I am the Owners Assistant! If you need help use command $help');
+    	message.reply('Hi Welcome to FunTimes Gaming Development Support I am the Owners Assistant! If you need help use command $help');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('List Of Commands: $ip, $cad, $backgroundinfo, and $hello');
+    	message.reply('List Of Commands: $fivem, $paintjobs, $backgroundinfo, and $hello! For further help go here --> #❔support❔');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '$backgroundinfo') {
-    	message.reply('Project San Andreas is a RP server for Five M! The Owner is N. Henshaw AKA Cuzco. The owner started Project San Andreas in 2018, and has been working on the server every since. Project San Andreas is a very strong community when brought together! We help everyone learn how to RP and make people feel at home! We give everyone a chance on our community. We are the community of forgiveness. We can not help that some people do not like our server or agree on how we think. We have rules, and people have to abide by them. We the community hope you enjoy your stay!');
+    	message.reply('FunTimes Gaming Development Support is a support company for Five M! The Owner is [FT] NiceGuy. The owner started FunTimes Gaming Development Support in 2018, and has been working on the company every since. FunTimes Gaming Development Support is a very helpful compan! We help everyone with making the best FiveM RP sevrer and making people feel satisfied with are work! We work are best to fix everyone server or get the server started on how they want it to be. We the company hope you enjoy your stay');
   	}
 });
 
