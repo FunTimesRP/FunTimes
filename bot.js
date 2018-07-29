@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$paintjobs') {
-    	message.reply('#five-m-specials');
+    	message.reply('five-m-specials');
   	}
 });
 
@@ -31,7 +31,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('Commands: $fivem, $paintjobs, $website, $hello, ping. If you need further help go here ---> #❔support❔');
+    	message.reply('Commands: $fivem, $paintjobs, $website, $hello, ping. If you need further help go here ---> ❔support❔');
   	}
 });
 
