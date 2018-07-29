@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$paintjobs') {
-    	message.reply('five-m-specials');
+    	message.reply('go to five-m-specials');
   	}
 });
 
