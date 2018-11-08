@@ -25,13 +25,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$website') {
-    	message.reply('https://funtimesgamingdevelopmentsupport.mistforums.com/');
+    	message.reply('https://bubble.is/site/funtimesnetworks/');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('Commands: $fivem, $paintjobs, $website, $hello, ping. If you need further help go here ---> ❔support❔');
+    	message.reply('**Commands:** $website, $hello, $ip. If you need further help go here ---> ❔support❔');
   	}
 });
 
