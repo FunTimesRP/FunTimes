@@ -24,7 +24,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '$web') {
+    if (message.content === '/web') {
     	message.reply('https://bubble.is/site/funtimesnetworks/');
   	}
 });
